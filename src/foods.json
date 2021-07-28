@@ -1,1168 +1,1084 @@
 {
-   "places": [{
-       "restaurant": "La Rovira",
-       "place": "larovira",
-       "iso": "https://res.cloudinary.com/grountish/image/upload/v1595088760/larovira_diiku0.png",
-       "hasLang": true,
-       "sugerenciaButton": "Suggeriment del dia",
-       "sugerenciaButton_en": "Suggestion of the day",
-       "sugerenciaButton_es": "Sugerencia del día",
-       "sugerenciaDelDiaTitulo": "Guineu Txiripa",
-       "sugerenciaDelDiaTitulo_en": "Guineu Txiripa",
-       "sugerenciaDelDiaTitulo_es": "Guineu Txiripa",
-       "sugerenciaDelDiaBoton": "tancar",
-       "sugerenciaDelDiaBoton_en": "close",
-       "sugerenciaDelDiaBoton_es": "cerrar",
-       "sugerenciaDelDiaImg": "https://res.cloudinary.com/grountish/image/upload/v1597680879/guineu_lshuma.png",
-       "sugerenciaDelDiaDescripcion": "Cervesa d'estil IPA elaborada amb blat, tres tipus de malt i diversos llúpols cítrics americans. Ideal per acompanyar amb unes braves la Rovira o un entrepà Martí!",
-       "sugerenciaDelDiaDescripcion_en": "IPA-style beer made with wheat, along with three types of malt and several American citrus hops. Best friend to La Rovira bravas or a Martí sandwich!",
-       "sugerenciaDelDiaDescripcion_es": "Cerveza de estilo IPA elaborada con trigo, junto a tres tipos de malta y varios lúpulos cítricos americanos. Ideal para acompañarla con unas bravas La Rovira o un bocadillo Martí!",
- 
-       "backgroundColor": "black",
-       "overlayColor": "rgba(0,0,0, 0.5)",
-       "borderButton": "1px solid #FFF",
-       "modalBackgroundColor": "#FFF",
-       "font": "Tommaso",
-       "color": "#FFF",
-       "divisiones": [{
-           "nombre": "àpats",
-           "nombre_en": "food",
-           "nombre_es": "comida"
-         },
-         {
-           "nombre": "begudes",
-           "nombre_es": "bebidas",
-           "nombre_en": "drinks"
-         }
-       ],
-       "categorias": [{
-         "division": "bebidas",
-         "categoryAlone": true,
-         "nombre": "cerveses",
-         "nombre_en": "beer",
-         "nombre_es": "cervezas",
-         "imagen": "https://okasional-beer.com/blog-cerveza-artesana/wp-content/uploads/2019/04/cerveses-la-pirata-okasional-beer.jpg",
-         "data": [{
-             "nombre": "1. Guineu Txiripa",
-             "nombre_en": "1. Guineu Txiripa",
-             "nombre_es": "1. Guineu Txiripa",
-             "descripcion": "IPA - Catalunya - 6%",
-             "descripcion_en": "IPA - Catalunya - 6%",
-             "descripcion_es": "IPA - Catalunya - 6%",
-             "precio": "6 / 3.50",
-             "tags": "cervesa afruitada citrica lupulada amarga",
-             "tags_en": " beer fruity citric bitter ",
-             "tags_es": "cerveza afrutada citrica lupulada amarga"
-           },
-           {
-             "nombre": "2. Cloudwater Gyle",
-             "nombre_en": "2. Cloudwater Gyle",
-             "nombre_es": "2. Cloudwater Gyle",
-             "descripcion": "DDH Pale Ale - Anglaterra - 5.5%",
-             "descripcion_en": "DDH Pale Ale - England - 5.5%",
-             "descripcion_es": "DDH Pale Ale - Inglaterra - 5.5%",
-             "precio": "7.50 / 4.70",
-             "tags": "cervesa afruitada lupulada fresca",
-             "tags_en": "beer fruity hopped fresh ",
-             "tags_es": "cerveza afrutada lupulada fresca"
-           },
-           {
-             "nombre": "3. Kusfollin",
-             "nombre_en": "3. Kusfollin",
-             "nombre_es": "3. Kusfollin",
-             "descripcion": "APA - Catalunya - 5.5%",
-             "descripcion_en": "APA - Catalunya - 5.5%",
-             "descripcion_es": "APA - Catalunya - 5.5%",
-             "precio": "6.10 / 3.60",
-             "tags": "cervesa citrica afruitada amarga seca",
-             "tags_en": "beer citric fruity bitter dry",
-             "tags_es": "cerveza afrutada citrica amarga seca"
-           },
-           {
-             "nombre": "4. Oakham Green Devil",
-             "nombre_en": "4. Oakham Green Devil",
-             "nombre_es": "4. Oakham Green Devil",
-             "descripcion": "IPA - Anglaterra - 6%",
-             "descripcion_en": "IPA - England - 6%",
-             "descripcion_es": "IPA - Inglaterra - 6%",
-             "precio": "6.50 / 3.80",
-             "tags": "cervesa afruitada citrica lupulada",
-             "tags_en": "beer fruity citric hopped ",
-             "tags_es": "cerveza afrutada citrica lupulada"
-           },
-           {
-             "nombre": "5. La Salvatge Inframon",
-             "nombre_en": "5. La Salvatge Inframon",
-             "nombre_es": "5. La Salvatge Inframon",
-             "descripcion": "Saison Brett - Catalunya - 6%",
-             "descripcion_en": "Saison Brett - Catalunya - 6%",
-             "descripcion_es": "Saison Brett - Catalunya - 6%",
-             "precio": "7.50 / 4.70",
-             "tags": "cervesa acida",
-             "tags_en": "beer acidic",
-             "tags_es": "cerveza acida"
-           },
-           {
-             "nombre": "6. La Pirata Hazy Primavera",
-             "nombre_en": "6. La Pirata Hazy Primavera",
-             "nombre_es": "6. La Pirata Hazy Primavera",
-             "descripcion": "Session IPA - Catalunya - 3.8%",
-             "descripcion_en": "Session IPA - Catalunya - 3.8%",
-             "descripcion_es": "Session IPA - Catalunya - 3.8%",
-             "precio": "6.20 / 3.70",
-             "tags": "cervesa citrica",
-             "tags_en": "beer citric",
-             "tags_es": "cerveza citrica"
-           },
-           {
-             "nombre": "7. Fermun Red Alert",
-             "nombre_en": "7. Fermun Red Alert",
-             "nombre_es": "7. Fermun Red Alert",
-             "descripcion": "Irish Red Ale - Catalunya - 3.8%",
-             "descripcion_en": "Irish Red Ale - Catalunya - 3.8%",
-             "descripcion_es": "Irish Red Ale - Catalunya - 3.8%",
-             "precio": "6.10 / 3.60",
-             "tags": "cervesa torrada dolça",
-             "tags_en": "beer toasted sweet",
-             "tags_es": "cerveza tostada dulce"
-           },
-           {
-             "nombre": "8. Beerbliotek I'm so aware",
-             "nombre_en": "8. Beerbliotek I'm so aware",
-             "nombre_es": "8. Beerbliotek I'm so aware",
-             "descripcion": "Double IPA - Suecia - 7.9%",
-             "descripcion_en": "Double IPA - Sweden - 7.9%",
-             "descripcion_es": "Double IPA - Suecia - 7.9%",
-             "precio": "7.20 / 4.5",
-             "tags": "cervesa afruitada citrica lupulada",
-             "tags_en": "beer fruity citric hopped",
-             "tags_es": "cerveza afrutada citrica lupulada"
-           },
-           {
-             "nombre": "9. Brighton Bier Downtown Charlie Brown",
-             "nombre_en": "9. Brighton Bier Downtown Charlie Brown",
-             "nombre_es": "9. Brighton Bier Downtown Charlie Brown",
-             "descripcion": "American Brown Stout - Anglaterra - 6%",
-             "descripcion_en": "American Brown Stout - England - 6%",
-             "descripcion_es": "American Brown Stout - Inglaterra - 6%",
-             "precio": "6.80 / 4",
-             "tags": "cervesa torrada afruitada lupulada",
-             "tags_en": "beer toasted fruity hopped",
-             "tags_es": "cerveza tostada afrutada lupulada"
-           },
-           {
-             "nombre": "10. Seven Islands Hazelnut Moctezuma",
-             "nombre_en": "10. Seven Islands Hazelnut Moctezuma",
-             "nombre_es": "10. Seven Islands Hazelnut Moctezuma",
-             "descripcion": "Imperial Stout - Catalunya - 13%",
-             "descripcion_en": "Imperial Stout - Catalunya - 13%",
-             "descripcion_es": "Imperial Stout - Catalunya - 13%",
-             "precio": "6.30",
-             "tags": "cervesa torrada negra dolça",
-             "tags_en": "beer toasted black sweet",
-             "tags_es": "cerveza tostada dulce"
-           },
-           {
-             "nombre": "11. Guineu Real Fruit",
-             "nombre_en": "11. Guineu Real Fruit",
-             "nombre_es": "11. Guineu Real Fruit",
-             "descripcion": "Berliner Weisse - Catalunya - 4.4%",
-             "descripcion_en": "Berliner Weisse - Catalunya - 4.4%",
-             "descripcion_es": "Berliner Weisse - Catalunya - 4.4%",
-             "precio": "6.70 / 3.5",
-             "tags": "cervesa afruitada citrica",
-             "tags_en": "beer fruity citric ",
-             "tags_es": "cerveza afrutada citrica"
-           },
-           {
-             "nombre": "12. Agullons Hops and Hopes",
-             "nombre_en": "12. Agullons Hops and Hopes",
-             "nombre_es": "12. Agullons Hops and Hopes",
-             "descripcion": "English Pale Ale - Catalunya - 5.5%",
-             "descripcion_en": "English Pale Ale - Catalunya - 5.5%",
-             "descripcion_es": "English Pale Ale - Catalunya - 5.5%",
-             "precio": "6 / 3.5",
-             "tags": "cervesa torrada citrica",
-             "tags_en": "beer toasted citric",
-             "tags_es": "cerveza tostada citrica"
-           },
-           {
-             "nombre": "13. Agullons Runa",
-             "nombre_en": "13. Agullons Runa",
-             "nombre_es": "13. Agullons Runa",
-             "descripcion": "Brown Ale - Catalunya - 5%",
-             "descripcion_en": "Brown Ale - Catalunya - 5%",
-             "descripcion_es": "Brown Ale - Catalunya - 5%",
-             "precio": "6.30 / 2.80",
-             "tags": "cervesa torrada lupulada",
-             "tags_en": "beer hopped toasted",
-             "tags_es": "cerveza tostada lupulada"
-           },
-           {
-             "nombre": "14. Cierzo Vertigo",
-             "nombre_en": "14. Cierzo Vertigo",
-             "nombre_es": "14. Cierzo Vertigo",
-             "descripcion": "Doble IPA - Zaragoza - 9%",
-             "descripcion_en": "Double IPA - Zaragoza - 9%",
-             "descripcion_es": "Doble IPA - Zaragoza - 9%",
-             "precio": "6.9 / 4.2",
-             "tags": "cervesa citrica lupulada",
-             "tags_en": "beer citric hopped",
-             "tags_es": "cerveza citrica lupulada"
-           },
-           {
-             "nombre": "15. Oud Beersel",
-             "nombre_en": "15. Oud Beersel",
-             "nombre_es": "15. Oud Beersel",
-             "descripcion": "Framboise Fruit Lambic - Belgica - 5%",
-             "descripcion_en": "Framboise Fruit Lambic - Belgium - 5%",
-             "descripcion_es": "Framboise Fruit Lambic - Belgica - 5%",
-             "precio": "6.70",
-             "tags": "cervesa afruitada",
-             "tags_en": "beer fruity",
-             "tags_es": "cerveza afrutada"
-           },
-           {
-             "nombre": "Estrella Galicia Bodega",
-             "nombre_en": "Estrella Galicia Bodega",
-             "nombre_es": "Estrella Galicia Bodega",
-             "descripcion": "5.5%",
-             "descripcion_en": "5.5%",
-             "descripcion_es": "5.5%",
-             "precio": "2.20 / 2.80 / 4",
-             "tags": "cervesa",
-             "tags_en": "beer",
-             "tags_es": "cerveza"
-           },
-           {
-             "nombre": "Estrella Galicia 1906",
-             "nombre_en": "Estrella Galicia 1906",
-             "nombre_es": "Estrella Galicia 1906",
-             "descripcion": "8%",
-             "descripcion_en": "8%",
-             "descripcion_es": "8%",
-             "precio": "2.50 / 2.80 / 4.80",
-             "tags": "cervesa",
-             "tags_en": "beer",
-             "tags_es": "cerveza"
-           },
-           {
-             "nombre": "Erdinger Weisse",
-             "nombre_en": "Erdinger Weisse",
-             "nombre_es": "Erdinger Weisse",
-             "descripcion": "Blat - 5.5%",
-             "descripcion_en": "Wheat - 5.5%",
-             "descripcion_es": "Trigo - 5.5%",
-             "precio": "3 / 5",
-             "tags": "cervesa celiac",
-             "tags_en": "beer celiac",
-             "tags_es": "cerveza celiaco"
-           }
+   "places": [
+      {
+         "restaurant": "La Rovira",
+         "place": "larovira",
+         "iso": "https://res.cloudinary.com/grountish/image/upload/v1595088760/larovira_diiku0.png",
+         "hasLang": true,
+         "sugerenciaButton": "Suggeriment del dia",
+         "sugerenciaButton_en": "Suggestion of the day",
+         "sugerenciaButton_es": "Sugerencia del día",
+         "sugerenciaDelDiaTitulo": "Guineu Txiripa",
+         "sugerenciaDelDiaTitulo_en": "Guineu Txiripa",
+         "sugerenciaDelDiaTitulo_es": "Guineu Txiripa",
+         "sugerenciaDelDiaBoton": "tancar",
+         "sugerenciaDelDiaBoton_en": "close",
+         "sugerenciaDelDiaBoton_es": "cerrar",
+         "sugerenciaDelDiaImg": "https://res.cloudinary.com/grountish/image/upload/v1597680879/guineu_lshuma.png",
+         "sugerenciaDelDiaDescripcion": "Cervesa d'estil IPA elaborada amb blat, tres tipus de malt i diversos llúpols cítrics americans. Ideal per acompanyar amb unes braves la Rovira o un entrepà Martí!",
+         "sugerenciaDelDiaDescripcion_en": "IPA-style beer made with wheat, along with three types of malt and several American citrus hops. Best friend to La Rovira bravas or a Martí sandwich!",
+         "sugerenciaDelDiaDescripcion_es": "Cerveza de estilo IPA elaborada con trigo, junto a tres tipos de malta y varios lúpulos cítricos americanos. Ideal para acompañarla con unas bravas La Rovira o un bocadillo Martí!",
+         "backgroundColor": "black",
+         "overlayColor": "rgba(0,0,0, 0.5)",
+         "borderButton": "1px solid #FFF",
+         "modalBackgroundColor": "#FFF",
+         "font": "Tommaso",
+         "color": "#FFF",
+         "divisiones": [
+            {
+               "nombre": "àpats",
+               "nombre_en": "food",
+               "nombre_es": "comida"
+            },
+            {
+               "nombre": "begudes",
+               "nombre_es": "bebidas",
+               "nombre_en": "drinks"
+            }
+         ],
+         "categorias": [
+            {
+               "division": "bebidas",
+               "categoryAlone": true,
+               "nombre": "cerveses",
+               "nombre_en": "beer",
+               "nombre_es": "cervezas",
+               "imagen": "https://okasional-beer.com/blog-cerveza-artesana/wp-content/uploads/2019/04/cerveses-la-pirata-okasional-beer.jpg",
+               "data": [
+                  {
+                     "nombre": "1. Guineu Txiripa",
+                     "nombre_en": "1. Guineu Txiripa",
+                     "nombre_es": "1. Guineu Txiripa",
+                     "descripcion": "IPA - Catalunya - 6%",
+                     "descripcion_en": "IPA - Catalunya - 6%",
+                     "descripcion_es": "IPA - Catalunya - 6%",
+                     "precio": "6 / 3.50",
+                     "tags": "cervesa afruitada citrica lupulada amarga",
+                     "tags_en": " beer fruity citric bitter ",
+                     "tags_es": "cerveza afrutada citrica lupulada amarga"
+                  },
+                  {
+                     "nombre": "2. Cloudwater Gyle",
+                     "nombre_en": "2. Cloudwater Gyle",
+                     "nombre_es": "2. Cloudwater Gyle",
+                     "descripcion": "DDH Pale Ale - Anglaterra - 5.5%",
+                     "descripcion_en": "DDH Pale Ale - England - 5.5%",
+                     "descripcion_es": "DDH Pale Ale - Inglaterra - 5.5%",
+                     "precio": "7.50 / 4.70",
+                     "tags": "cervesa afruitada lupulada fresca",
+                     "tags_en": "beer fruity hopped fresh ",
+                     "tags_es": "cerveza afrutada lupulada fresca"
+                  },
+                  {
+                     "nombre": "3. Kusfollin",
+                     "nombre_en": "3. Kusfollin",
+                     "nombre_es": "3. Kusfollin",
+                     "descripcion": "APA - Catalunya - 5.5%",
+                     "descripcion_en": "APA - Catalunya - 5.5%",
+                     "descripcion_es": "APA - Catalunya - 5.5%",
+                     "precio": "6.10 / 3.60",
+                     "tags": "cervesa citrica afruitada amarga seca",
+                     "tags_en": "beer citric fruity bitter dry",
+                     "tags_es": "cerveza afrutada citrica amarga seca"
+                  },
+                  {
+                     "nombre": "4. Oakham Green Devil",
+                     "nombre_en": "4. Oakham Green Devil",
+                     "nombre_es": "4. Oakham Green Devil",
+                     "descripcion": "IPA - Anglaterra - 6%",
+                     "descripcion_en": "IPA - England - 6%",
+                     "descripcion_es": "IPA - Inglaterra - 6%",
+                     "precio": "6.50 / 3.80",
+                     "tags": "cervesa afruitada citrica lupulada",
+                     "tags_en": "beer fruity citric hopped ",
+                     "tags_es": "cerveza afrutada citrica lupulada"
+                  },
+                  {
+                     "nombre": "5. La Salvatge Inframon",
+                     "nombre_en": "5. La Salvatge Inframon",
+                     "nombre_es": "5. La Salvatge Inframon",
+                     "descripcion": "Saison Brett - Catalunya - 6%",
+                     "descripcion_en": "Saison Brett - Catalunya - 6%",
+                     "descripcion_es": "Saison Brett - Catalunya - 6%",
+                     "precio": "7.50 / 4.70",
+                     "tags": "cervesa acida",
+                     "tags_en": "beer acidic",
+                     "tags_es": "cerveza acida"
+                  },
+                  {
+                     "nombre": "6. La Pirata Hazy Primavera",
+                     "nombre_en": "6. La Pirata Hazy Primavera",
+                     "nombre_es": "6. La Pirata Hazy Primavera",
+                     "descripcion": "Session IPA - Catalunya - 3.8%",
+                     "descripcion_en": "Session IPA - Catalunya - 3.8%",
+                     "descripcion_es": "Session IPA - Catalunya - 3.8%",
+                     "precio": "6.20 / 3.70",
+                     "tags": "cervesa citrica",
+                     "tags_en": "beer citric",
+                     "tags_es": "cerveza citrica"
+                  },
+                  {
+                     "nombre": "7. Fermun Red Alert",
+                     "nombre_en": "7. Fermun Red Alert",
+                     "nombre_es": "7. Fermun Red Alert",
+                     "descripcion": "Irish Red Ale - Catalunya - 3.8%",
+                     "descripcion_en": "Irish Red Ale - Catalunya - 3.8%",
+                     "descripcion_es": "Irish Red Ale - Catalunya - 3.8%",
+                     "precio": "6.10 / 3.60",
+                     "tags": "cervesa torrada dolça",
+                     "tags_en": "beer toasted sweet",
+                     "tags_es": "cerveza tostada dulce"
+                  },
+                  {
+                     "nombre": "8. Beerbliotek I'm so aware",
+                     "nombre_en": "8. Beerbliotek I'm so aware",
+                     "nombre_es": "8. Beerbliotek I'm so aware",
+                     "descripcion": "Double IPA - Suecia - 7.9%",
+                     "descripcion_en": "Double IPA - Sweden - 7.9%",
+                     "descripcion_es": "Double IPA - Suecia - 7.9%",
+                     "precio": "7.20 / 4.5",
+                     "tags": "cervesa afruitada citrica lupulada",
+                     "tags_en": "beer fruity citric hopped",
+                     "tags_es": "cerveza afrutada citrica lupulada"
+                  },
+                  {
+                     "nombre": "9. Brighton Bier Downtown Charlie Brown",
+                     "nombre_en": "9. Brighton Bier Downtown Charlie Brown",
+                     "nombre_es": "9. Brighton Bier Downtown Charlie Brown",
+                     "descripcion": "American Brown Stout - Anglaterra - 6%",
+                     "descripcion_en": "American Brown Stout - England - 6%",
+                     "descripcion_es": "American Brown Stout - Inglaterra - 6%",
+                     "precio": "6.80 / 4",
+                     "tags": "cervesa torrada afruitada lupulada",
+                     "tags_en": "beer toasted fruity hopped",
+                     "tags_es": "cerveza tostada afrutada lupulada"
+                  },
+                  {
+                     "nombre": "10. Seven Islands Hazelnut Moctezuma",
+                     "nombre_en": "10. Seven Islands Hazelnut Moctezuma",
+                     "nombre_es": "10. Seven Islands Hazelnut Moctezuma",
+                     "descripcion": "Imperial Stout - Catalunya - 13%",
+                     "descripcion_en": "Imperial Stout - Catalunya - 13%",
+                     "descripcion_es": "Imperial Stout - Catalunya - 13%",
+                     "precio": "6.30",
+                     "tags": "cervesa torrada negra dolça",
+                     "tags_en": "beer toasted black sweet",
+                     "tags_es": "cerveza tostada dulce"
+                  },
+                  {
+                     "nombre": "11. Guineu Real Fruit",
+                     "nombre_en": "11. Guineu Real Fruit",
+                     "nombre_es": "11. Guineu Real Fruit",
+                     "descripcion": "Berliner Weisse - Catalunya - 4.4%",
+                     "descripcion_en": "Berliner Weisse - Catalunya - 4.4%",
+                     "descripcion_es": "Berliner Weisse - Catalunya - 4.4%",
+                     "precio": "6.70 / 3.5",
+                     "tags": "cervesa afruitada citrica",
+                     "tags_en": "beer fruity citric ",
+                     "tags_es": "cerveza afrutada citrica"
+                  },
+                  {
+                     "nombre": "12. Agullons Hops and Hopes",
+                     "nombre_en": "12. Agullons Hops and Hopes",
+                     "nombre_es": "12. Agullons Hops and Hopes",
+                     "descripcion": "English Pale Ale - Catalunya - 5.5%",
+                     "descripcion_en": "English Pale Ale - Catalunya - 5.5%",
+                     "descripcion_es": "English Pale Ale - Catalunya - 5.5%",
+                     "precio": "6 / 3.5",
+                     "tags": "cervesa torrada citrica",
+                     "tags_en": "beer toasted citric",
+                     "tags_es": "cerveza tostada citrica"
+                  },
+                  {
+                     "nombre": "13. Agullons Runa",
+                     "nombre_en": "13. Agullons Runa",
+                     "nombre_es": "13. Agullons Runa",
+                     "descripcion": "Brown Ale - Catalunya - 5%",
+                     "descripcion_en": "Brown Ale - Catalunya - 5%",
+                     "descripcion_es": "Brown Ale - Catalunya - 5%",
+                     "precio": "6.30 / 2.80",
+                     "tags": "cervesa torrada lupulada",
+                     "tags_en": "beer hopped toasted",
+                     "tags_es": "cerveza tostada lupulada"
+                  },
+                  {
+                     "nombre": "14. Cierzo Vertigo",
+                     "nombre_en": "14. Cierzo Vertigo",
+                     "nombre_es": "14. Cierzo Vertigo",
+                     "descripcion": "Doble IPA - Zaragoza - 9%",
+                     "descripcion_en": "Double IPA - Zaragoza - 9%",
+                     "descripcion_es": "Doble IPA - Zaragoza - 9%",
+                     "precio": "6.9 / 4.2",
+                     "tags": "cervesa citrica lupulada",
+                     "tags_en": "beer citric hopped",
+                     "tags_es": "cerveza citrica lupulada"
+                  },
+                  {
+                     "nombre": "15. Oud Beersel",
+                     "nombre_en": "15. Oud Beersel",
+                     "nombre_es": "15. Oud Beersel",
+                     "descripcion": "Framboise Fruit Lambic - Belgica - 5%",
+                     "descripcion_en": "Framboise Fruit Lambic - Belgium - 5%",
+                     "descripcion_es": "Framboise Fruit Lambic - Belgica - 5%",
+                     "precio": "6.70",
+                     "tags": "cervesa afruitada",
+                     "tags_en": "beer fruity",
+                     "tags_es": "cerveza afrutada"
+                  },
+                  {
+                     "nombre": "Estrella Galicia Bodega",
+                     "nombre_en": "Estrella Galicia Bodega",
+                     "nombre_es": "Estrella Galicia Bodega",
+                     "descripcion": "5.5%",
+                     "descripcion_en": "5.5%",
+                     "descripcion_es": "5.5%",
+                     "precio": "2.20 / 2.80 / 4",
+                     "tags": "cervesa",
+                     "tags_en": "beer",
+                     "tags_es": "cerveza"
+                  },
+                  {
+                     "nombre": "Estrella Galicia 1906",
+                     "nombre_en": "Estrella Galicia 1906",
+                     "nombre_es": "Estrella Galicia 1906",
+                     "descripcion": "8%",
+                     "descripcion_en": "8%",
+                     "descripcion_es": "8%",
+                     "precio": "2.50 / 2.80 / 4.80",
+                     "tags": "cervesa",
+                     "tags_en": "beer",
+                     "tags_es": "cerveza"
+                  },
+                  {
+                     "nombre": "Erdinger Weisse",
+                     "nombre_en": "Erdinger Weisse",
+                     "nombre_es": "Erdinger Weisse",
+                     "descripcion": "Blat - 5.5%",
+                     "descripcion_en": "Wheat - 5.5%",
+                     "descripcion_es": "Trigo - 5.5%",
+                     "precio": "3 / 5",
+                     "tags": "cervesa celiac",
+                     "tags_en": "beer celiac",
+                     "tags_es": "cerveza celiaco"
+                  }
+               ]
+            },
+            {
+               "division": "comida",
+               "categoryAlone": true,
+               "nombre": "Aperitius",
+               "nombre_en": "Appetizers",
+               "nombre_es": "Aperitivos",
+               "imagen": "https://entrenosotros.consum.es/public/Image/2019/6/Tapas-CONSUM---Grande.png.jpg",
+               "data": [
+                  {
+                     "nombre": "Patats xips",
+                     "nombre_en": "Potatoe chips",
+                     "nombre_es": "Patatas chips",
+                     "descripcion": "",
+                     "descripcion_en": "",
+                     "descripcion_es": "",
+                     "precio": "1.9 / 2.1",
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Musclos",
+                     "nombre_en": "Mussels",
+                     "nombre_es": "Mejillones",
+                     "descripcion": "",
+                     "descripcion_en": "",
+                     "descripcion_es": "",
+                     "precio": "4.9 / 5.1",
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Cloïses fines",
+                     "nombre_en": "Fine clams",
+                     "nombre_es": "Almejas finas",
+                     "descripcion": "",
+                     "descripcion_en": "",
+                     "descripcion_es": "",
+                     "precio": "9.9 / 10.1",
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Navalles",
+                     "nombre_en": "Razor clams",
+                     "nombre_es": "Navajas",
+                     "descripcion": "",
+                     "descripcion_en": "",
+                     "descripcion_es": "",
+                     "precio": "9.9 / 10.1",
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Escopinyes",
+                     "nombre_en": "Cockles",
+                     "nombre_es": "Berberechos",
+                     "descripcion": "",
+                     "descripcion_en": "",
+                     "descripcion_es": "",
+                     "precio": "10.3 / 10.5",
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Gilda de anxova",
+                     "nombre_en": "Anchovy gilda",
+                     "nombre_es": "Gilda de anchoa",
+                     "descripcion": "",
+                     "descripcion_en": "",
+                     "descripcion_es": "",
+                     "precio": "1.9 / 2.1",
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Gilda de seitó",
+                     "nombre_en": "Anchovy gilda",
+                     "nombre_es": "Gilda de boquerón",
+                     "descripcion": "",
+                     "descripcion_en": "",
+                     "descripcion_es": "",
+                     "precio": "1.9 / 2.1",
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Seitons amb vinagre",
+                     "nombre_en": "Anchovies with vinegar",
+                     "nombre_es": "Boquerones con vinagre",
+                     "descripcion": "",
+                     "descripcion_en": "",
+                     "descripcion_es": "",
+                     "precio": "3.8 / 4",
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Zamburiña",
+                     "nombre_en": "Scallop",
+                     "nombre_es": "Zamburiña",
+                     "descripcion": "",
+                     "descripcion_en": "",
+                     "descripcion_es": "",
+                     "precio": "5.9 / 6.2",
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Olives estil La Rovira",
+                     "nombre_en": "La Rovira Olives",
+                     "nombre_es": "Olivas La Rovira",
+                     "descripcion": "",
+                     "descripcion_en": "",
+                     "descripcion_es": "",
+                     "precio": "2.6 / 2.8",
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Variat d'olives",
+                     "nombre_en": "Olives",
+                     "nombre_es": "Variedad de olivas",
+                     "descripcion": "",
+                     "descripcion_en": "",
+                     "descripcion_es": "",
+                     "precio": "3 / 3.2",
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Banderilla",
+                     "nombre_en": "Banderilla",
+                     "nombre_es": "Banderilla",
+                     "descripcion": "",
+                     "descripcion_en": "",
+                     "descripcion_es": "",
+                     "precio": "1 / 1.2",
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Pebrotet farcit de formatge",
+                     "nombre_en": "Peppers with cheese",
+                     "nombre_es": "Pimientos relleno de queso",
+                     "descripcion": "",
+                     "descripcion_en": "",
+                     "descripcion_es": "",
+                     "precio": "1 / 1.2",
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Pebrotet farcit de tonyina",
+                     "nombre_en": "Peppers with tuna",
+                     "nombre_es": "Pimientos rellenos de atún",
+                     "descripcion": "",
+                     "descripcion_en": "",
+                     "descripcion_es": "",
+                     "precio": "1 / 1.2",
+                     "tags": "",
+                     "alergenos": [
+                        1,
+                        2
+                     ]
+                  },
+                  {
+                     "nombre": "Pebrotet farcit de tonyina",
+                     "nombre_en": "Peppers with tuna",
+                     "nombre_es": "Pimientos rellenos de atún",
+                     "descripcion": "",
+                     "descripcion_en": "",
+                     "descripcion_es": "",
+                     "precio": "1 / 1.2",
+                     "tags": "",
+                     "alergenos": [
+                        3
+                     ]
+                  },
+                  {
+                     "nombre": "Escarxofa marinada",
+                     "nombre_en": "Marinated artichoke",
+                     "nombre_es": "Alcachofa marinada",
+                     "descripcion": "Unitat",
+                     "descripcion_en": "Unity",
+                     "descripcion_es": "Unidad",
+                     "precio": "1.2 / 1.4",
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Albergínia de tonyina",
+                     "nombre_en": "Tuna aubergines",
+                     "nombre_es": "Berenjenas de atún",
+                     "descripcion": "Unitat",
+                     "descripcion_en": "Unity",
+                     "descripcion_es": "Unidad",
+                     "precio": "2.8 / 3",
+                     "tags": ""
+                  }
+               ]
+            },
+            {
+               "division": "comida",
+               "categoryAlone": false,
+               "nombre": "amanides",
+               "nombre_en": "salads",
+               "nombre_es": "ensaladas",
+               "imagen": "https://entrenosotros.consum.es/public/Image/2019/6/Tapas-CONSUM---Grande.png.jpg",
+               "data": [
+                  {
+                     "nombre": "Amanida Sors",
+                     "nombre_en": "Sors salad",
+                     "nombre_es": "Ensalada Sors",
+                     "descripcion": "Amanida de burrata amb rúcula, tomaquet sec i pinyons ",
+                     "descripcion_en": "Burrata salad with arugula, sun-dried tomato and pine nuts",
+                     "descripcion_es": "Ensalada de burrata con rúcula, tomate seco y piñones",
+                     "precio": "8 / 8,2",
+                     "tags": "ensalada salad amanida",
+                     "alergenos": [
+                        1,
+                        5
+                     ]
+                  },
+                  {
+                     "nombre": "Amanida Vilafranca",
+                     "nombre_en": "Vilafranca Salad",
+                     "nombre_es": "Ensalada Vilafranca",
+                     "descripcion": "Mesclum, cogombe, pastanaga, ceba, fruits secs i vinagreta de mostassa",
+                     "descripcion_en": "Mesclum, cucumber, carrot, onion, nuts and mustard vinaigrette",
+                     "descripcion_es": "Mesclum, pepino, zanahoria, cebolla, frutos secos y vinagreta de mostazas",
+                     "precio": "6,5 / 6,7",
+                     "tags": "ensalada salad amanida",
+                     "alergenos": [
+                        2
+                     ]
+                  },
+                  {
+                     "nombre": "Amanida Encarnaciò",
+                     "nombre_en": "Encarnaciò salad",
+                     "nombre_es": "Ensalada Encarnacò",
+                     "descripcion": "Amanida de tomàquet de pagès, ventresca de tonyina i ceba marinada",
+                     "descripcion_en": "Peasant tomato salad, tuna belly and marinated onion",
+                     "descripcion_es": "Ensalada de tomate de campo, ventresca de atún y cebolla marinada",
+                     "precio": "8,2 / 8,4",
+                     "tags": "tapeta vegetaria tapa vegetarian vegetariano",
+                     "alergenos": [
+                        2
+                     ]
+                  }
+               ]
+            },
+            {
+               "division": "comida",
+               "categoryAlone": false,
+               "nombre": "plantxats",
+               "nombre_en": "sandwiches",
+               "nombre_es": "bocadillos",
+               "imagen": "https://realfood.tesco.com/media/images/RFO-1400x919-ChickenClubSandwich-0ee77c05-5a77-49ac-a3bd-4d45e3b4dca7-0-1400x919.jpg",
+               "data": [
+                  {
+                     "nombre": "Reig i Bonet",
+                     "nombre_en": "Reig i Bonet",
+                     "nombre_es": "Reig i Bonet",
+                     "descripcion": "Pit de pollastre, avocat, maionesa de chipotle, mozzarella i ceba vermella.",
+                     "descripcion_en": "Chicken, avocado, chipotle mayo, mozarella and red onions",
+                     "descripcion_es": "Pechuga de pollo, aguacate, mayonesa de chipotle, mozzarella y cebolla morada",
+                     "precio": 7.5,
+                     "tags": "plantxat sandwitch bocadillo",
+                     "tags_en": "plantxat sandwitch bocadillo",
+                     "tags_es": "plantxat sandwitch bocadillo",
+                     "alergenos": [
+                        3
+                     ]
+                  },
+                  {
+                     "nombre": "Verdi",
+                     "nombre_en": "Verdi",
+                     "nombre_es": "Verdi",
+                     "descripcion": "Botifarra de perol de Can Cruells, ceba al forn, formatge urgelia i allioli de codony.",
+                     "descripcion_en": "Botifarra de perol (catalan sausage) de Can Cruells, roasted onions, urgelia cheese and quince allioli",
+                     "descripcion_es": "Butifarra de perol de Can Cruells, cebolla asada, queso urgelia y allioli de membrillo",
+                     "precio": 7.5,
+                     "tags": "plantxat sandwitch bocadillo",
+                     "tags_en": "plantxat sandwitch bocadillo",
+                     "tags_es": "plantxat sandwitch bocadillo"
+                  },
+                  {
+                     "nombre": "Joan Blanques",
+                     "nombre_en": "Joan Blanques",
+                     "nombre_es": "Joan Blanques",
+                     "descripcion": "Sobrassada de Mallorca, formatge de Menorca i mel.",
+                     "descripcion_en": "Sobrasada (spicy sausage) from Mallorca, Menorca cheese and honey",
+                     "descripcion_es": "Sobrasada de Mallorca, queso de menorca y miel",
+                     "precio": 6.2,
+                     "tags": "plantxat sandwitch bocadillo",
+                     "tags_en": "plantxat sandwitch bocadillo",
+                     "tags_es": "plantxat sandwitch bocadillo"
+                  },
+                  {
+                     "nombre": "Escorial",
+                     "nombre_en": "Escorial",
+                     "nombre_es": "Escorial",
+                     "descripcion": "Biquini rústic de lacón i formatge tetilla.",
+                     "descripcion_en": "Grilled sandwitch with galician ham and tetilla cheese",
+                     "descripcion_es": "Biquini rústico de lacón y queso tetilla",
+                     "precio": 6.1,
+                     "tags": "plantxat sandwitch bocadillo",
+                     "tags_en": "plantxat sandwitch bocadillo",
+                     "tags_es": "plantxat sandwitch bocadillo"
+                  },
+                  {
+                     "nombre": "Les Tres Senyores",
+                     "nombre_en": "Les Tres Senyores",
+                     "nombre_es": "Les Tres Senyores",
+                     "descripcion": "Formatges (tetilla, maó i formatge blau), ceba rostida i crèixens.",
+                     "descripcion_en": "Tetilla cheese, maó cheese and blue cheese, roasted onions and watercress",
+                     "descripcion_es": "Quesos tetilla, maó y azul, cebolla asada y berros",
+                     "precio": 6.20,
+                     "tags": "plantxat vegetaria vegetarian vegetariano sandwitch bocadillo",
+                     "tags_en": "plantxat vegetaria vegetarian vegetariano sandwitch bocadillo",
+                     "tags_es": "plantxat vegetaria vegetarian vegetariano sandwitch bocadillo"
+                  },
+                  {
+                     "nombre": "Alzina",
+                     "nombre_en": "Alzina",
+                     "nombre_es": "Alzina",
+                     "descripcion": "Albergínia, olivada, tomàquets secs, ceba al forn i formatge de cabra.",
+                     "descripcion_en": "Aubergines, tapenade, sundried tomatoes, grilled onions and goat cheese",
+                     "descripcion_es": "Berenjenas, olivada, tomates secos, cebolla asada y queso de cabra",
+                     "precio": 7,
+                     "tags": "plantxat vegetaria vegetarian vegetariano sandwitch bocadillo",
+                     "tags_en": "plantxat vegetaria vegetarian vegetariano sandwitch bocadillo",
+                     "tags_es": "plantxat vegetaria vegetarian vegetariano sandwitch bocadillo"
+                  },
+                  {
+                     "nombre": "Legalitat",
+                     "nombre_en": "Legalitat",
+                     "nombre_es": "Legalitat",
+                     "descripcion": "Heura, carabassó, tomáquet sec, ceba al forn i hummus de mongeta blanca",
+                     "descripcion_en": "Heura, zucchini, sundried tomatoes, grilled onions and white bean hummus",
+                     "descripcion_es": "Heura, calabacín, tomates secos, cebolla asada y hummus de judía blanca",
+                     "precio": 7.5,
+                     "tags": "plantxat vega vegetaria vegano vegan vegetarian vegetariano sandwitch bocadillo",
+                     "tags_en": "plantxat vega vegetaria vegano vegan vegetarian vegetariano sandwitch bocadillo",
+                     "tags_es": "plantxat vega vegetaria vegano vegan vegetarian vegetariano sandwitch bocadillo"
+                  },
+                  {
+                     "nombre": "Martí",
+                     "nombre_en": "Martí",
+                     "nombre_es": "Martí",
+                     "descripcion": "Formatge de cabra, escalivada i anxoves",
+                     "descripcion_en": "Goat cheese, escalivada and anchovies",
+                     "descripcion_es": "Queso de cabra, escalivada y anchoas",
+                     "precio": 7,
+                     "tags": "plantxat sandwitch bocadillo"
+                  }
+               ]
+            },
+            {
+               "division": "comida",
+               "categoryAlone": false,
+               "nombre": "tapetes",
+               "nombre_en": "tapas",
+               "nombre_es": "tapas",
+               "imagen": "https://entrenosotros.consum.es/public/Image/2019/6/Tapas-CONSUM---Grande.png.jpg",
+               "data": [
+                  {
+                     "nombre": "Naxos",
+                     "nombre_en": "Nachos",
+                     "nombre_es": "Nachos",
+                     "descripcion": "amb guacamole",
+                     "descripcion_en": "with guacamole",
+                     "descripcion_es": "con guacamole",
+                     "precio": 5.5,
+                     "tags": "tapeta vega vegetaria tapa vegan vegetarian vegano vegetariano"
+                  },
+                  {
+                     "nombre": "Naxos complets",
+                     "nombre_en": "Complete Nachos",
+                     "nombre_es": "Nachos completos",
+                     "descripcion": "amb guacamole i formatge",
+                     "descripcion_en": "with guacamole and cheese",
+                     "descripcion_es": "con guacamole y queso",
+                     "precio": 6,
+                     "tags": "tapeta vegetaria tapa vegetarian vegetariano"
+                  },
+                  {
+                     "nombre": "Patates La Rovira",
+                     "nombre_en": "La Rovira Potatoes",
+                     "nombre_es": "Patatas La Rovira",
+                     "descripcion": "al mojo amb salsa brava",
+                     "descripcion_en": "al mojo with spicy sauce",
+                     "descripcion_es": "al mojo con salsa brava",
+                     "precio": 4.5,
+                     "tags": "tapeta vegetaria tapa vegetarian vegetariano"
+                  },
+                  {
+                     "nombre": "Pack Vermouth",
+                     "nombre_en": "Pack Vermouth",
+                     "nombre_es": "Pack Vermouth",
+                     "descripcion": "1 gilda anxova, 1 gilda seitó, 1 banderilla, 1 pebrot farcit formatge, 1 pebrot farcit tonyina, 1 escarxofa marinada",
+                     "descripcion_en": "1 anchovies gilda, 1 seitó gilda, 1 f, 1 cheese stuffed pepper, 1 tuna stuffed pepper, 1 marinated artichoke",
+                     "descripcion_es": "1 gilda anchoa, 1 gilda boquerón, 1 banderilla, 1 pimiento relleno de queso, 1 pimiento relleno de atún, 1 alcachofa marinada",
+                     "precio": 8,
+                     "tags": "tapeta celiac tapa celiaco"
+                  },
+                  {
+                     "nombre": "Pack la rovira",
+                     "nombre_en": "La Rovira pack",
+                     "nombre_es": "Pack la rovira",
+                     "descripcion": "escopinyes, musclos, olives i patates espinaler",
+                     "descripcion_en": "Cockles, mussels, olives and potato chips",
+                     "descripcion_es": "berberechos, mejillones, olivas y patatas espinaler",
+                     "precio": 11.5,
+                     "tags": "tapeta celiac tapa celiaco"
+                  }
+               ]
+            }
          ]
-       }, {
-         "division": "comida",
-         "categoryAlone": true,
-         "nombre": "Aperitius",
-         "nombre_en": "Appetizers",
-         "nombre_es": "Aperitivos",
-         "imagen": "https://entrenosotros.consum.es/public/Image/2019/6/Tapas-CONSUM---Grande.png.jpg",
-         "data": [{
-             "nombre": "Patats xips",
-             "nombre_en": "Potatoe chips",
-             "nombre_es": "Patatas chips",
-             "descripcion": "",
-             "descripcion_en": "",
-             "descripcion_es": "",
-             "precio": "1.9 / 2.1",
-             "tags": ""
-           },
-           {
-             "nombre": "Musclos",
-             "nombre_en": "Mussels",
-             "nombre_es": "Mejillones",
-             "descripcion": "",
-             "descripcion_en": "",
-             "descripcion_es": "",
-             "precio": "4.9 / 5.1",
-             "tags": ""
-           },
-           {
-             "nombre": "Cloïses fines",
-             "nombre_en": "Fine clams",
-             "nombre_es": "Almejas finas",
-             "descripcion": "",
-             "descripcion_en": "",
-             "descripcion_es": "",
-             "precio": "9.9 / 10.1",
-             "tags": ""
-           },
-           {
-             "nombre": "Navalles",
-             "nombre_en": "Razor clams",
-             "nombre_es": "Navajas",
-             "descripcion": "",
-             "descripcion_en": "",
-             "descripcion_es": "",
-             "precio": "9.9 / 10.1",
-             "tags": ""
-           },
-           {
-             "nombre": "Escopinyes",
-             "nombre_en": "Cockles",
-             "nombre_es": "Berberechos",
-             "descripcion": "",
-             "descripcion_en": "",
-             "descripcion_es": "",
-             "precio": "10.3 / 10.5",
-             "tags": ""
-           },
-           {
-             "nombre": "Gilda de anxova",
-             "nombre_en": "Anchovy gilda",
-             "nombre_es": "Gilda de anchoa",
-             "descripcion": "",
-             "descripcion_en": "",
-             "descripcion_es": "",
-             "precio": "1.9 / 2.1",
-             "tags": ""
-           },
-           {
-             "nombre": "Gilda de seitó",
-             "nombre_en": "Anchovy gilda",
-             "nombre_es": "Gilda de boquerón",
-             "descripcion": "",
-             "descripcion_en": "",
-             "descripcion_es": "",
-             "precio": "1.9 / 2.1",
-             "tags": ""
-           },
-           {
-             "nombre": "Seitons amb vinagre",
-             "nombre_en": "Anchovies with vinegar",
-             "nombre_es": "Boquerones con vinagre",
-             "descripcion": "",
-             "descripcion_en": "",
-             "descripcion_es": "",
-             "precio": "3.8 / 4",
-             "tags": ""
-           },
-           {
-             "nombre": "Zamburiña",
-             "nombre_en": "Scallop",
-             "nombre_es": "Zamburiña",
-             "descripcion": "",
-             "descripcion_en": "",
-             "descripcion_es": "",
-             "precio": "5.9 / 6.2",
-             "tags": ""
-           },
-           {
-             "nombre": "Olives estil La Rovira",
-             "nombre_en": "La Rovira Olives",
-             "nombre_es": "Olivas La Rovira",
-             "descripcion": "",
-             "descripcion_en": "",
-             "descripcion_es": "",
-             "precio": "2.6 / 2.8",
-             "tags": ""
-           },
-           {
-             "nombre": "Variat d'olives",
-             "nombre_en": "Olives",
-             "nombre_es": "Variedad de olivas",
-             "descripcion": "",
-             "descripcion_en": "",
-             "descripcion_es": "",
-             "precio": "3 / 3.2",
-             "tags": ""
-           },
-           {
-             "nombre": "Banderilla",
-             "nombre_en": "Banderilla",
-             "nombre_es": "Banderilla",
-             "descripcion": "",
-             "descripcion_en": "",
-             "descripcion_es": "",
-             "precio": "1 / 1.2",
-             "tags": ""
-           },
-           {
-             "nombre": "Pebrotet farcit de formatge",
-             "nombre_en": "Peppers with cheese",
-             "nombre_es": "Pimientos relleno de queso",
-             "descripcion": "",
-             "descripcion_en": "",
-             "descripcion_es": "",
-             "precio": "1 / 1.2",
-             "tags": ""
-           },
-           {
-             "nombre": "Pebrotet farcit de tonyina",
-             "nombre_en": "Peppers with tuna",
-             "nombre_es": "Pimientos rellenos de atún",
-             "descripcion": "",
-             "descripcion_en": "",
-             "descripcion_es": "",
-             "precio": "1 / 1.2",
-             "tags": "",
-             "alergenos": [1, 2]
-           },
-           {
-             "nombre": "Pebrotet farcit de tonyina",
-             "nombre_en": "Peppers with tuna",
-             "nombre_es": "Pimientos rellenos de atún",
-             "descripcion": "",
-             "descripcion_en": "",
-             "descripcion_es": "",
-             "precio": "1 / 1.2",
-             "tags": "",
-             "alergenos": [3]
-           },
-           {
-             "nombre": "Escarxofa marinada",
-             "nombre_en": "Marinated artichoke",
-             "nombre_es": "Alcachofa marinada",
-             "descripcion": "Unitat",
-             "descripcion_en": "Unity",
-             "descripcion_es": "Unidad",
-             "precio": "1.2 / 1.4",
-             "tags": ""
-           },
-           {
-             "nombre": "Albergínia de tonyina",
-             "nombre_en": "Tuna aubergines",
-             "nombre_es": "Berenjenas de atún",
-             "descripcion": "Unitat",
-             "descripcion_en": "Unity",
-             "descripcion_es": "Unidad",
-             "precio": "2.8 / 3",
-             "tags": ""
-           }
+      },
+      {
+         "restaurant": "Bianca Helados & Café",
+         "place": "bianca",
+         "iso": "https://res.cloudinary.com/grountish/image/upload/v1598538045/Logo_Bianca_tjb4tl.png",
+         "sugerenciaDelDiaTitulo": "",
+         "sugerenciaDelDiaBoton": "Cerrar",
+         "sugerenciaDelDiaImg": "",
+         "sugerenciaDelDiaDescripcion": "",
+         "backgroundColor": "white",
+         "overlayColor": "rgba(0,0,0, 0.5)",
+         "borderButton": "3px solid #FFF",
+         "homeInverted": false,
+         "hasUpselling": false,
+         "modalBackgroundColor": "#FFF",
+         "font": "Brandon Regular",
+         "font2": "Brandon Bold",
+         "color": "#10a7e0",
+         "divisiones": [
+            {
+               "nombre_es": "Bebidas",
+               "nombre": "Bebidas"
+            }
+         ],
+         "categorias": [
+            {
+               "division": "",
+               "categoryAlone": true,
+               "nombre": "Promos!",
+               "data": [
+                  {
+                     "nombre": "Promo 1",
+                     "descripcion": "Café con leche con tostadas de pan blanco o negro y exprimido mediano",
+                     "precio": 320,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Promo 2",
+                     "descripcion": "Café con leche con tostado árabe de pan blanco o integral y exprimido mediano",
+                     "precio": 360,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Promo 3",
+                     "descripcion": "Café con leche, dos medialunas de jamon y queso y exprimido mediano",
+                     "precio": 330,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Promo 4",
+                     "descripcion": "Café con leche, porción de budín y exprimido mediano",
+                     "precio": 320,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Promo 5",
+                     "descripcion": "Yogurt con frutas de estación y cereales y exprimido de naranja",
+                     "precio": 330,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Combo tostado",
+                     "descripcion": "Tostado árabe con tomate y gaseosa 250 ml",
+                     "precio": 350,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Combo árabe jamón y queso",
+                     "descripcion": "árabe y gaseosa 250 ml",
+                     "precio": 320,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Combo medio napolitano",
+                     "descripcion": "napolitano y gaseosa 250 ml",
+                     "precio": 320,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Combo medialunas rellenas",
+                     "descripcion": "2 medialunas rellenas y gaseosa 250 ml",
+                     "precio": 280,
+                     "tags": ""
+                  }
+               ]
+            },
+            {
+               "division": "Bebidas",
+               "nombre": "Cafés",
+               "categoryAlone": false,
+               "imagen": "",
+               "data": [
+                  {
+                     "nombre": "Café pocillo",
+                     "descripcion": "",
+                     "precio": 120,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Café jarrito",
+                     "descripcion": "",
+                     "precio": 140,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Café con leche",
+                     "descripcion": "",
+                     "precio": 150,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Café doble",
+                     "descripcion": "",
+                     "precio": 180,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Capuccino",
+                     "descripcion": "",
+                     "precio": 180,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Lágrima chica",
+                     "descripcion": "",
+                     "precio": 140,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Lágrima doble",
+                     "descripcion": "",
+                     "precio": "150",
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Capuccino italiano",
+                     "descripcion": "",
+                     "precio": 210,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Café irlandés",
+                     "descripcion": "Café con whisky, crema y canela",
+                     "precio": 280,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Café Calipso",
+                     "descripcion": "Café con Tía María, crema y canela",
+                     "precio": 280,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Café Baileys",
+                     "descripcion": "café con Baileys, crema y chocolate",
+                     "precio": 330,
+                     "tags": ""
+                  }
+               ]
+            },
+            {
+               "division": "Bebidas",
+               "nombre": "Bebidas calientes",
+               "categoryAlone": false,
+               "imagen": "",
+               "data": [
+                  {
+                     "nombre": "Chocolatada",
+                     "descripcion": "",
+                     "precio": 150,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Submarino",
+                     "descripcion": "",
+                     "precio": 180,
+                     "tags": ""
+                  }
+               ]
+            },
+            {
+               "division": "Bebidas",
+               "nombre": "Bebidas frías",
+               "categoryAlone": false,
+               "imagen": "",
+               "data": [
+                  {
+                     "nombre": "Milkshake",
+                     "descripcion": "Batido con leche sabor de helado a elección",
+                     "precio": 340,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Smoothie",
+                     "descripcion": "Frutilla, durazno, ananá, manzana verde, maracuyá, frambuesa",
+                     "precio": 340,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Capuccino frío",
+                     "descripcion": "Chocolate, vainilla, dulce de leche, capuccino o crema oreo",
+                     "precio": 340,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Licuado a base de agua/leche",
+                     "descripcion": "",
+                     "precio": 240,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Exprimido de naranja grande",
+                     "descripcion": "",
+                     "precio": 180,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Gaeosa de 500 ml",
+                     "descripcion": "Línea Coca-Cola",
+                     "precio": 120,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Gaeosa de 250 ml",
+                     "descripcion": "Línea Coca-Cola",
+                     "precio": 80,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Agua saborizada",
+                     "descripcion": "",
+                     "precio": 110,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Agua mineral",
+                     "descripcion": "",
+                     "precio": 100,
+                     "tags": ""
+                  }
+               ]
+            },
+            {
+               "division": "",
+               "nombre": "Pastelería artesanal",
+               "categoryAlone": true,
+               "imagen": "https://entrenosotros.consum.es/public/Image/2019/6/Tapas-CONSUM---Grande.png.jpg",
+               "data": [
+                  {
+                     "nombre": "Tiramisú",
+                     "descripcion": "",
+                     "precio": 250,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Selva negra",
+                     "descripcion": "",
+                     "precio": 250,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Sopa inglesa",
+                     "descripcion": "",
+                     "precio": 250,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Chocotorta",
+                     "descripcion": "",
+                     "precio": 270,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Cheesecake",
+                     "descripcion": "",
+                     "precio": 270,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Brownie con merengue",
+                     "descripcion": "",
+                     "precio": 250,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Lemmon pie",
+                     "descripcion": "",
+                     "precio": 250,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Tres estaciones",
+                     "descripcion": "",
+                     "precio": 250,
+                     "tags": ""
+                  }
+               ]
+            },
+            {
+               "division": "",
+               "nombre": "Para acompañar",
+               "categoryAlone": true,
+               "imagen": "https://realfood.tesco.com/media/images/RFO-1400x919-ChickenClubSandwich-0ee77c05-5a77-49ac-a3bd-4d45e3b4dca7-0-1400x919.jpg",
+               "data": [
+                  {
+                     "nombre": "Medialuna de manteca",
+                     "descripcion": "",
+                     "precio": 30,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Brownie",
+                     "descripcion": "",
+                     "precio": 120,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Alfabrownie",
+                     "descripcion": "",
+                     "precio": 150,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Porción de budín",
+                     "descripcion": "De limón o marmolado",
+                     "precio": 140,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Medialuna con jamón y queso",
+                     "descripcion": "",
+                     "precio": 100,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Tostadas de campo",
+                     "descripcion": "",
+                     "precio": 150,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Alfajor de chocolate",
+                     "descripcion": "",
+                     "precio": 100,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Alfajor de coco con dulce de leche",
+                     "descripcion": "",
+                     "descripcion_en": "",
+                     "precio": 140,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Muffin",
+                     "descripcion": "Vainilla o chocolate",
+                     "descripcion_en": "",
+                     "precio": 100,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Donut rellena",
+                     "descripcion": "",
+                     "descripcion_en": "",
+                     "precio": 70,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Wafle con helado",
+                     "descripcion": "",
+                     "descripcion_en": "",
+                     "precio": 290,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Brownie con helado",
+                     "descripcion": "",
+                     "descripcion_en": "",
+                     "precio": 290,
+                     "tags": ""
+                  }
+               ]
+            },
+            {
+               "division": "",
+               "nombre": "Sandwiches y canastitas",
+               "categoryAlone": true,
+               "imagen": "",
+               "data": [
+                  {
+                     "nombre": "Tostado mixto",
+                     "descripcion": "",
+                     "precio": 280,
+                     "tags": ""
+                  },
+                  {
+                     "nombre": "Tostado árabe",
+                     "descripcion": "",
+                     "precio": 240,
+                     "tags": ""
+                  },
+                  
+                  {
+                     "nombre": "Tostado árabe integral",
+                     "descripcion": "",
+                     "precio": 240,
+                     "tags": ""
+                  }
+               ]
+            }
          ]
-       }, {
-         "division": "comida",
-         "categoryAlone": false,
-         "nombre": "amanides",
-         "nombre_en": "salads",
-         "nombre_es": "ensaladas",
-         "imagen": "https://entrenosotros.consum.es/public/Image/2019/6/Tapas-CONSUM---Grande.png.jpg",
-         "data": [{
-             "nombre": "Amanida Sors",
-             "nombre_en": "Sors salad",
-             "nombre_es": "Ensalada Sors",
-             "descripcion": "Amanida de burrata amb rúcula, tomaquet sec i pinyons ",
-             "descripcion_en": "Burrata salad with arugula, sun-dried tomato and pine nuts",
-             "descripcion_es": "Ensalada de burrata con rúcula, tomate seco y piñones",
-             "precio": "8 / 8,2",
-             "tags": "ensalada salad amanida",
-             "alergenos": [1, 5]
-           },
-           {
-             "nombre": "Amanida Vilafranca",
-             "nombre_en": "Vilafranca Salad",
-             "nombre_es": "Ensalada Vilafranca",
-             "descripcion": "Mesclum, cogombe, pastanaga, ceba, fruits secs i vinagreta de mostassa",
-             "descripcion_en": "Mesclum, cucumber, carrot, onion, nuts and mustard vinaigrette",
-             "descripcion_es": "Mesclum, pepino, zanahoria, cebolla, frutos secos y vinagreta de mostazas",
-             "precio": "6,5 / 6,7",
-             "tags": "ensalada salad amanida",
-             "alergenos": [2]
-           },
-           {
-             "nombre": "Amanida Encarnaciò",
-             "nombre_en": "Encarnaciò salad",
-             "nombre_es": "Ensalada Encarnacò",
-             "descripcion": "Amanida de tomàquet de pagès, ventresca de tonyina i ceba marinada",
-             "descripcion_en": "Peasant tomato salad, tuna belly and marinated onion",
-             "descripcion_es": "Ensalada de tomate de campo, ventresca de atún y cebolla marinada",
-             "precio": "8,2 / 8,4",
-             "tags": "tapeta vegetaria tapa vegetarian vegetariano",
-             "alergenos": [2]
-           }
-         ]
-       }, {
-         "division": "comida",
-         "categoryAlone": false,
-         "nombre": "plantxats",
-         "nombre_en": "sandwiches",
-         "nombre_es": "bocadillos",
-         "imagen": "https://realfood.tesco.com/media/images/RFO-1400x919-ChickenClubSandwich-0ee77c05-5a77-49ac-a3bd-4d45e3b4dca7-0-1400x919.jpg",
-         "data": [{
-             "nombre": "Reig i Bonet",
-             "nombre_en": "Reig i Bonet",
-             "nombre_es": "Reig i Bonet",
-             "descripcion": "Pit de pollastre, avocat, maionesa de chipotle, mozzarella i ceba vermella.",
-             "descripcion_en": "Chicken, avocado, chipotle mayo, mozarella and red onions",
-             "descripcion_es": "Pechuga de pollo, aguacate, mayonesa de chipotle, mozzarella y cebolla morada",
-             "precio": 7.5,
-             "tags": "plantxat sandwitch bocadillo",
-             "tags_en": "plantxat sandwitch bocadillo",
-             "tags_es": "plantxat sandwitch bocadillo",
-             "alergenos": [3]
-           },
-           {
-             "nombre": "Verdi",
-             "nombre_en": "Verdi",
-             "nombre_es": "Verdi",
-             "descripcion": "Botifarra de perol de Can Cruells, ceba al forn, formatge urgelia i allioli de codony.",
-             "descripcion_en": "Botifarra de perol (catalan sausage) de Can Cruells, roasted onions, urgelia cheese and quince allioli",
-             "descripcion_es": "Butifarra de perol de Can Cruells, cebolla asada, queso urgelia y allioli de membrillo",
-             "precio": 7.5,
-             "tags": "plantxat sandwitch bocadillo",
-             "tags_en": "plantxat sandwitch bocadillo",
-             "tags_es": "plantxat sandwitch bocadillo"
-           },
-           {
-             "nombre": "Joan Blanques",
-             "nombre_en": "Joan Blanques",
-             "nombre_es": "Joan Blanques",
-             "descripcion": "Sobrassada de Mallorca, formatge de Menorca i mel.",
-             "descripcion_en": "Sobrasada (spicy sausage) from Mallorca, Menorca cheese and honey",
-             "descripcion_es": "Sobrasada de Mallorca, queso de menorca y miel",
-             "precio": 6.2,
-             "tags": "plantxat sandwitch bocadillo",
-             "tags_en": "plantxat sandwitch bocadillo",
-             "tags_es": "plantxat sandwitch bocadillo"
- 
-           },
-           {
-             "nombre": "Escorial",
-             "nombre_en": "Escorial",
-             "nombre_es": "Escorial",
-             "descripcion": "Biquini rústic de lacón i formatge tetilla.",
-             "descripcion_en": "Grilled sandwitch with galician ham and tetilla cheese",
-             "descripcion_es": "Biquini rústico de lacón y queso tetilla",
-             "precio": 6.1,
-             "tags": "plantxat sandwitch bocadillo",
-             "tags_en": "plantxat sandwitch bocadillo",
-             "tags_es": "plantxat sandwitch bocadillo"
-           },
-           {
-             "nombre": "Les Tres Senyores",
-             "nombre_en": "Les Tres Senyores",
-             "nombre_es": "Les Tres Senyores",
-             "descripcion": "Formatges (tetilla, maó i formatge blau), ceba rostida i crèixens.",
-             "descripcion_en": "Tetilla cheese, maó cheese and blue cheese, roasted onions and watercress",
-             "descripcion_es": "Quesos tetilla, maó y azul, cebolla asada y berros",
-             "precio": 6.20,
-             "tags": "plantxat vegetaria vegetarian vegetariano sandwitch bocadillo",
-             "tags_en": "plantxat vegetaria vegetarian vegetariano sandwitch bocadillo",
-             "tags_es": "plantxat vegetaria vegetarian vegetariano sandwitch bocadillo"
-           },
-           {
-             "nombre": "Alzina",
-             "nombre_en": "Alzina",
-             "nombre_es": "Alzina",
-             "descripcion": "Albergínia, olivada, tomàquets secs, ceba al forn i formatge de cabra.",
-             "descripcion_en": "Aubergines, tapenade, sundried tomatoes, grilled onions and goat cheese",
-             "descripcion_es": "Berenjenas, olivada, tomates secos, cebolla asada y queso de cabra",
-             "precio": 7,
-             "tags": "plantxat vegetaria vegetarian vegetariano sandwitch bocadillo",
-             "tags_en": "plantxat vegetaria vegetarian vegetariano sandwitch bocadillo",
-             "tags_es": "plantxat vegetaria vegetarian vegetariano sandwitch bocadillo"
- 
-           },
-           {
-             "nombre": "Legalitat",
-             "nombre_en": "Legalitat",
-             "nombre_es": "Legalitat",
-             "descripcion": "Heura, carabassó, tomáquet sec, ceba al forn i hummus de mongeta blanca",
-             "descripcion_en": "Heura, zucchini, sundried tomatoes, grilled onions and white bean hummus",
-             "descripcion_es": "Heura, calabacín, tomates secos, cebolla asada y hummus de judía blanca",
-             "precio": 7.5,
-             "tags": "plantxat vega vegetaria vegano vegan vegetarian vegetariano sandwitch bocadillo",
-             "tags_en": "plantxat vega vegetaria vegano vegan vegetarian vegetariano sandwitch bocadillo",
-             "tags_es": "plantxat vega vegetaria vegano vegan vegetarian vegetariano sandwitch bocadillo"
- 
-           },
-           {
-             "nombre": "Martí",
-             "nombre_en": "Martí",
-             "nombre_es": "Martí",
-             "descripcion": "Formatge de cabra, escalivada i anxoves",
-             "descripcion_en": "Goat cheese, escalivada and anchovies",
-             "descripcion_es": "Queso de cabra, escalivada y anchoas",
-             "precio": 7,
-             "tags": "plantxat sandwitch bocadillo"
-           }
-         ]
-       }, {
-         "division": "comida",
-         "categoryAlone": false,
-         "nombre": "tapetes",
-         "nombre_en": "tapas",
-         "nombre_es": "tapas",
-         "imagen": "https://entrenosotros.consum.es/public/Image/2019/6/Tapas-CONSUM---Grande.png.jpg",
-         "data": [{
-             "nombre": "Naxos",
-             "nombre_en": "Nachos",
-             "nombre_es": "Nachos",
-             "descripcion": "amb guacamole",
-             "descripcion_en": "with guacamole",
-             "descripcion_es": "con guacamole",
-             "precio": 5.5,
-             "tags": "tapeta vega vegetaria tapa vegan vegetarian vegano vegetariano"
-           },
-           {
-             "nombre": "Naxos complets",
-             "nombre_en": "Complete Nachos",
-             "nombre_es": "Nachos completos",
-             "descripcion": "amb guacamole i formatge",
-             "descripcion_en": "with guacamole and cheese",
-             "descripcion_es": "con guacamole y queso",
-             "precio": 6,
-             "tags": "tapeta vegetaria tapa vegetarian vegetariano"
-           },
-           {
-             "nombre": "Patates La Rovira",
-             "nombre_en": "La Rovira Potatoes",
-             "nombre_es": "Patatas La Rovira",
-             "descripcion": "al mojo amb salsa brava",
-             "descripcion_en": "al mojo with spicy sauce",
-             "descripcion_es": "al mojo con salsa brava",
-             "precio": 4.5,
-             "tags": "tapeta vegetaria tapa vegetarian vegetariano"
-           },
-           {
-             "nombre": "Pack Vermouth",
-             "nombre_en": "Pack Vermouth",
-             "nombre_es": "Pack Vermouth",
-             "descripcion": "1 gilda anxova, 1 gilda seitó, 1 banderilla, 1 pebrot farcit formatge, 1 pebrot farcit tonyina, 1 escarxofa marinada",
-             "descripcion_en": "1 anchovies gilda, 1 seitó gilda, 1 f, 1 cheese stuffed pepper, 1 tuna stuffed pepper, 1 marinated artichoke",
-             "descripcion_es": "1 gilda anchoa, 1 gilda boquerón, 1 banderilla, 1 pimiento relleno de queso, 1 pimiento relleno de atún, 1 alcachofa marinada",
-             "precio": 8,
-             "tags": "tapeta celiac tapa celiaco"
-           },
-           {
-             "nombre": "Pack la rovira",
-             "nombre_en": "La Rovira pack",
-             "nombre_es": "Pack la rovira",
-             "descripcion": "escopinyes, musclos, olives i patates espinaler",
-             "descripcion_en": "Cockles, mussels, olives and potato chips",
-             "descripcion_es": "berberechos, mejillones, olivas y patatas espinaler",
-             "precio": 11.5,
-             "tags": "tapeta celiac tapa celiaco"
-           }
-         ]
-       }]
-     },
- 
-     {
-      "restaurant": "Bianca Helados & Café",
-      "place": "bianca",
-      "iso": "https://res.cloudinary.com/grountish/image/upload/v1598538045/Logo_Bianca_tjb4tl.png",
-      "sugerenciaDelDiaTitulo": "",
-      "sugerenciaDelDiaBoton": "Cerrar",
-      "sugerenciaDelDiaImg": "",
-      "sugerenciaDelDiaDescripcion": "",
-      "backgroundColor": "white",
-      "overlayColor": "rgba(0,0,0, 0.5)",
-      "borderButton": "3px solid #FFF",
-      "homeInverted": false,
-      "hasUpselling": false,
-      "modalBackgroundColor": "#FFF",
-      "font": "Brandon Regular",
-      "font2": "Brandon Bold",
-      "color": "#10a7e0",
-      "divisiones": [
-         {
-            "nombre_es": "Bebidas",
-            "nombre": "Bebidas"
-         }
-      ],
-      "categorias": [
-         {
-            "division": "",
-            "categoryAlone": true,
-            "nombre": "Promos!",
-            "data": [
-               {
-                  "nombre": "Promo 1",
-                  "descripcion": "Café con leche con tostadas de pan blanco o negro y exprimido mediano",
-                  "precio": 230,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Promo 2",
-                  "descripcion": "Café con leche con tostado árabe de pan blanco o integral y exprimido mediano",
-                  "precio": 320,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Promo 3",
-                  "descripcion": "Café con leche, dos medialunas de jamon y queso y exprimido mediano",
-                  "precio": 270,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Promo 4",
-                  "descripcion": "Café con leche, porción de budín y exprimido mediano",
-                  "precio": 210,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Promo café con medialunas",
-                  "descripcion": "Café con leche y 2 medialunas",
-                  "precio": 150,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Combo tostado",
-                  "descripcion": "Tostado árabe con tomate y gaseosa 250 ml",
-                  "precio": 260,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Combo tostado mixto",
-                  "descripcion": "Tostado mixto y gaseosa 250 ml",
-                  "precio": 270,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Combo árabe",
-                  "descripcion": "árabe y gaseosa 250 ml",
-                  "precio": 230,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Combo napolitano",
-                  "descripcion": "napolitano y gaseosa 250 ml",
-                  "precio": 250,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Combo canastitas",
-                  "descripcion": "2 canastitas gusto a elección y gaseosa 250 ml",
-                  "precio": 180,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Combo medialunas rellenas",
-                  "descripcion": "2 medialunas rellenas y gaseosa 250 ml",
-                  "precio": 230,
-                  "tags": ""
-               }
-            ]
-         },
-         {
-            "division": "Bebidas",
-            "nombre": "Cafés",
-            "categoryAlone": false,
-            "imagen": "",
-            "data": [
-               {
-                  "nombre": "Café pocillo",
-                  "descripcion": "",
-                  "precio": 100,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Café jarrito",
-                  "descripcion": "",
-                  "precio": 110,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Café con leche",
-                  "descripcion": "",
-                  "precio": 130,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Café doble",
-                  "descripcion": "",
-                  "precio": 160,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Capuccino",
-                  "descripcion": "",
-                  "precio": 160,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Lágrima chica",
-                  "descripcion": "",
-                  "precio": 110,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Lágrima doble",
-                  "descripcion": "",
-                  "precio": "130",
-                  "tags": ""
-               },
-               {
-                  "nombre": "Capuccino italiano",
-                  "descripcion": "",
-                  "precio": 180,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Café irlandés",
-                  "descripcion": "Café con whisky, crema y canela",
-                  "precio": 260,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Café Calipso",
-                  "descripcion": "Café con Tía María, crema y canela",
-                  "precio": 260,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Café español",
-                  "descripcion": "Café con cognac, crema y canela",
-                  "precio": 260,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Café cubano",
-                  "descripcion": "Café con ron dorado, crema y canela",
-                  "precio": 260,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Café Baileys",
-                  "descripcion": "café con Baileys, crema y chocolate",
-                  "precio": 320,
-                  "tags": ""
-               }
-            ]
-         },
-         {
-            "division": "Bebidas",
-            "nombre": "Bebidas calientes",
-            "categoryAlone": false,
-            "imagen": "",
-            "data": [
-               {
-                  "nombre": "Chocolatada",
-                  "descripcion": "",
-                  "precio": 130,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Submarino",
-                  "descripcion": "",
-                  "precio": 150,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Té/ mate cocido",
-                  "descripcion": "",
-                  "precio": 100,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Vaso de leche",
-                  "descripcion": "",
-                  "precio": 100,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Adicional",
-                  "descripcion": "leche/crema",
-                  "precio": 40,
-                  "tags": ""
-               }
-            ]
-         },
-         {
-            "division": "Bebidas",
-            "nombre": "Bebidas frías",
-            "categoryAlone": false,
-            "imagen": "",
-            "data": [
-               {
-                  "nombre": "Milkshake",
-                  "descripcion": "Batido con leche sabor de helado a elección",
-                  "precio": 240,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Smoothie",
-                  "descripcion": "Frutilla, durazno, ananá, manzana verde, maracuyá, frambuesa",
-                  "precio": 240,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Capuccino frío",
-                  "descripcion": "Chocolate, vainilla, dulce de leche, capuccino o crema oreo",
-                  "precio": 240,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Licuado a base de agua/leche",
-                  "descripcion": "",
-                  "precio": 180,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Exprimido de naranja grande",
-                  "descripcion": "",
-                  "precio": 150,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Exprimido mediano",
-                  "descripcion": "",
-                  "precio": 90,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Gaeosa de 500 ml",
-                  "descripcion": "Línea Coca-Cola",
-                  "precio": 100,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Gaeosa de 250 ml",
-                  "descripcion": "Línea Coca-Cola",
-                  "precio": 70,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Agua saborizada",
-                  "descripcion": "",
-                  "precio": 90,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Agua mineral",
-                  "descripcion": "",
-                  "precio": 70,
-                  "tags": ""
-               }
-            ]
-         },
-         {
-            "division": "Bebidas",
-            "nombre": "Copas",
-            "categoryAlone": false,
-            "imagen": "",
-            "data": [
-               {
-                  "nombre": "Daiquiri de frutilla",
-                  "descripcion": "Helado de frutila con ron blanco, limón, azúcar y hielo",
-                  "precio": 320,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Speed con melón",
-                  "descripcion": "Helado de melón con vodka y speed",
-                  "precio": 320,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Gancia batido",
-                  "descripcion": "Helado de limón con granadina y Gancia",
-                  "precio": 320,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Copa Orange",
-                  "descripcion": "Helado de limón con vodka y jugo de naranja",
-                  "precio": 320,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Mojito",
-                  "descripcion": "Helado de limón, menta, ron blanco, limón, hielo y azúúcar",
-                  "precio": 320,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Copa Tía María",
-                  "descripcion": "Helado de vainilla con Tía María, salsa de chocolate y crema",
-                  "precio": 320,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Copa Tentación",
-                  "descripcion": "Helado de dulce de leche con Baileys y crema",
-                  "precio": 320,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Copa Baileys",
-                  "descripcion": "Helado de vainilla con licor Baileys, salsa de chocolate y crema",
-                  "precio": 350,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Copa Lemmon Champ",
-                  "descripcion": "Helado de limón con un champagne chandon 187",
-                  "precio": 350,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Don Pedro",
-                  "descripcion": "",
-                  "precio": 320,
-                  "tags": ""
-               }
-            ]
-         },
-         {
-            "division": "",
-            "nombre": "Pastelería artesanal",
-            "categoryAlone": true,
-            "imagen": "https://entrenosotros.consum.es/public/Image/2019/6/Tapas-CONSUM---Grande.png.jpg",
-            "data": [
-               {
-                  "nombre": "Tiramisú",
-                  "descripcion": "",
-                  "precio": 190,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Selva negra",
-                  "descripcion": "",
-                  "precio": 190,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Sopa inglesa",
-                  "descripcion": "",
-                  "precio": 190,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Chocotorta",
-                  "descripcion": "",
-                  "precio": 210,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Cheesecake",
-                  "descripcion": "",
-                  "precio": 210,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Brownie con merengue",
-                  "descripcion": "",
-                  "precio": 190,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Lemmon pie",
-                  "descripcion": "",
-                  "precio": 190,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Tres estaciones",
-                  "descripcion": "",
-                  "precio": 190,
-                  "tags": ""
-               }
-            ]
-         },
-         {
-            "division": "",
-            "nombre": "Para acompañar",
-            "categoryAlone": true,
-            "imagen": "https://realfood.tesco.com/media/images/RFO-1400x919-ChickenClubSandwich-0ee77c05-5a77-49ac-a3bd-4d45e3b4dca7-0-1400x919.jpg",
-            "data": [
-               {
-                  "nombre": "Medialuna de manteca",
-                  "descripcion": "",
-                  "precio": 30,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Chipá de queso",
-                  "descripcion": "6 unidades",
-                  "precio": 100,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Brownie",
-                  "descripcion": "",
-                  "precio": 100,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Porción de budín",
-                  "descripcion": "De limón o marmolado",
-                  "precio": 90,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Medialuna con jamón y queso",
-                  "descripcion": "",
-                  "precio": 80,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Tostadas de campo",
-                  "descripcion": "",
-                  "precio": 100,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Alfajor de chocolate",
-                  "descripcion": "",
-                  "precio": 60,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Alfabrownie",
-                  "descripcion": "",
-                  "precio": 110,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Alfajor de maicena",
-                  "descripcion": "",
-                  "descripcion_en": "",
-                  "precio": 80,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Alfajor de coco con dulce de leche",
-                  "descripcion": "",
-                  "descripcion_en": "",
-                  "precio": 80,
-                  "tags": ""
-               }
-            ]
-         },
-         {
-            "division": "",
-            "nombre": "Sandwiches y canastitas",
-            "categoryAlone": true,
-            "imagen": "",
-            "data": [
-               {
-                  "nombre": "Tostado mixto",
-                  "descripcion": "",
-                  "precio": 200,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Tostado árabe",
-                  "descripcion": "",
-                  "precio": 160,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Tostado árabe con tomate",
-                  "descripcion": "",
-                  "precio": 190,
-                  "tags": ""
-               },
-               {
-                  "nombre": "Tostado napolitano",
-                  "descripcion": "4 triples con queso, tomate y orégano",
-                  "precio": 210,
-                  "tags": ""
-               }
-            ]
-         }
-      ]
-   }
-  ]
+      }
+   ]
 }
