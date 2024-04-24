@@ -27,7 +27,7 @@ const FoodBox = ({lang, nombre, precio}) => {
           <h4 style={{color: foundPlace.color , fontFamily: "Brandon Bold"}}>{switchLang('nombre')}</h4>
           <p>{switchLang('descripcion')}</p>
         </div>
-      <h3 className="h4-precio">{precio}</h3>
+      
       </div>
     );
   }
